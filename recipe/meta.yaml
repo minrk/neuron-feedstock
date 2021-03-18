@@ -22,6 +22,7 @@ source:
     patches:
       - avoid-basename-s.patch  # [linux]
       - x-sentinel.patch
+      - CMakeLists.patch  # [osx]
 
 build:
   number: {{ build }}
